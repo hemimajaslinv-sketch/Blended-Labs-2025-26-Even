@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HEMIMA JASLIN V 
+* **Register Number**: 212224250006
+* **Date of Submission**: 21-05-2026
 
 ---
 
@@ -85,7 +85,9 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+I configured a user data script to automatically install Apache and deploy a web application, then
+verified the web server by accessing the instance’s public DNS in a browser.
+
 
 1. ---
 2. ---
@@ -99,19 +101,22 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="638" height="277" alt="image" src="https://github.com/user-attachments/assets/fd2e041b-f173-4aaf-ad7e-86d15940a210" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="641" height="273" alt="image" src="https://github.com/user-attachments/assets/b5372940-224d-4fc5-8f79-8f7d4fa6f2f7" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="498" height="143" alt="image" src="https://github.com/user-attachments/assets/05989ade-038d-484a-9784-77402043a686" />
+
 
 ---
 
