@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:HEMIMA JASLIN V 
+* **Register Number**: 212224250006
+* **Date of Submission**:29.05.2026
 
 ---
 
@@ -78,16 +78,15 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Create a 1 GiB EBS volume in the same Availability Zone as the EC2 (Lab) instance and name it “My Volume”.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Attach “My Volume” to the EC2 instance using device name /dev/sdb.
 
----
+3.Connect to the instance via Session Manager, create /mnt/data-store, format /dev/sdb (ext3), mount it, and update /etc/fstab.
 
+4.Write a file to the mounted volume and create a snapshot named “My Snapshot” from the EBS volume.
+
+5.Restore the snapshot as a new volume, attach it to the instance, mount it (e.g., /dev/sdc), and verify the file.
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
@@ -98,13 +97,15 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1259" height="618" alt="image" src="https://github.com/user-attachments/assets/61acb6be-8dce-4106-aaf1-717f4e51f0c3" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1256" height="615" alt="image" src="https://github.com/user-attachments/assets/27bc0acf-881f-49e8-bbf8-9f72286c91fc" />
+
 
 ---
 
